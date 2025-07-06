@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap'); */
+
+@layer base{
+    :root{
+        --background: 210 11% 4%;
+        --foreground: 0 0% 98%;
+
+        --primary: 0 0% 98%;
+        --primary-foreground: 210 11% 4%;
+
+        --muted: 210 6% 12%;
+        --muted-foreground: 0 0% 80%;
+
+        --accent: 210 6% 16%;
+        --accent-foreground: 0 0% 98%;
+
+        --border: 210 6% 16%;
+        
+    }
+    .light{
+        --background: 0 0% 100%;
+        --foreground: 0 0% 10%;
+
+        --primary: 0 0% 10%;
+        --primary-foreground: 0 0% 100%;
+
+        --muted: 0 0% 96%;
+        --muted-foreground: 0 0% 35%;
+
+        --accent: 0 0% 96%;
+        --accent-foreground: 0 0% 10%;
+
+        --border: 0 0% 90%;
+    }
+}
+
+@layer base{
+    body{
+        @apply bg-background text-foreground font-rubik;
+        scroll-behavior: smooth;
+    }
+    html {
+        scroll-behavior: smooth;
+    }
+    
+}
+
+@layer utilities {
+    .font-inter {
+        font-family: 'Inter', sans-serif;
+    }   
+    .font-playfair {
+        font-family: 'Playfair Display', serif;
+    }
+    .font-montserrat {
+        font-family: 'Montserrat', sans-serif;
+    }
+    .font-lato {
+        font-family: 'Lato', sans-serif;
+    }
+    .font-rubik {
+        font-family: 'Rubik', sans-serif;
+    }
+    .parallax {
+        transform: translateZ(0);
+        will-change: transform;
+    }
+    .text-gradient {
+        background: linear-gradient(135deg, #ffffff 0%, #d0d0d0 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .light .text-gradient {
+        background: linear-gradient(135deg, #000000 0%, #404040 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+    opacity: 0;
+    transform: translateY(30px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+@keyframes float {
+    0%, 100% {
+    transform: translateY(0px);
+    }
+    50% {
+    transform: translateY(-10px);
+    }
+}
+
+.animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+} 
