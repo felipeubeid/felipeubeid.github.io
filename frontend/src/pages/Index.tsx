@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Projects from "../components/Projects";
+import Contact from "../components/Contact";
 
 const Index = () => {
   return (
@@ -10,7 +11,8 @@ const Index = () => {
       <Hero />
       <About />
       <Projects />
-
+      <Contact />
+      
       <footer className="py-8 px-6 border-t border-border">
         <div className="max-w-6xl mx-auto text-center">
           <p className="text-muted-foreground text-sm">

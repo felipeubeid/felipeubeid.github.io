@@ -16,6 +16,10 @@ const Hero = () => {
     document.getElementById("about")?.scrollIntoView({ behavior: "smooth" });
   };
 
+  const scrollToContact = () => {
+    document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
       {/* Background gradient */}
@@ -37,11 +41,13 @@ const Hero = () => {
         <h1 className="font-playfair text-6xl md:text-8xl font-bold mb-6 animate-fade-in-up">
           <span className="text-gradient">Felipe Ubeid</span>
         </h1>
-        <p className="text-xl md:text-2xl text-muted-foreground mb-12 animate-fade-in-up font-light tracking-wide" 
-        style={{ animationDelay: '0.2s' }}>
+        <p
+          className="text-xl md:text-2xl text-muted-foreground mb-12 animate-fade-in-up font-light tracking-wide"
+          style={{ animationDelay: "0.2s" }}
+        >
           Aspiring Software Engineer
         </p>
-        
+
         <div
           className="flex flex-col sm:flex-row gap-6 justify-center items-center animate-fade-in-up"
           style={{ animationDelay: "0.4s" }}
@@ -53,7 +59,10 @@ const Hero = () => {
             Explore
           </button>
 
-          <button className="px-8 py-4 border border-foreground text-foreground font-medium rounded-full hover:bg-accent transition-all duration-300 transform hover:scale-105">
+          <button
+            onClick={scrollToContact}
+            className="px-8 py-4 border border-foreground text-foreground font-medium rounded-full hover:bg-accent transition-all duration-300 transform hover:scale-105"
+          >
             Get In Touch
           </button>
         </div>
