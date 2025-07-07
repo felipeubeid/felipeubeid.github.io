@@ -59,11 +59,12 @@ const Projects = () => {
     {
       title: "Personal Website",
       description:
-        "The website you are seeing right now. Hope you are enjoying!",
+        "The website you are seeing right now. Hope you are liking it!",
       tech: ["React", "Tailwind CSS"],
       image: personalwebsite,
-      // live: true,
+      live: true,
       gitHubUrl: "https://github.com/felipeubeid/personal-website.git",
+      liveUrl: "https://felipeubeid.github.io/"
     },
   ];
 
