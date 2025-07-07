@@ -62,7 +62,7 @@ const Projects = () => {
         "The website you are seeing right now. Hope you are enjoying!",
       tech: ["React", "Tailwind CSS"],
       image: personalwebsite,
-      live: true,
+      // live: true,
       gitHubUrl: "https://github.com/felipeubeid/personal-website.git",
     },
   ];
@@ -97,7 +97,7 @@ const Projects = () => {
               >
                 <div
                   className="aspect-video rounded-xl mb-6 flex items-center justify-center 
-                  text-4xl group-hover:scale-[1.01] transition-transform duration-300"
+                  text-4xl transition-transform duration-300"
                 >
                   <img
                     src={project.image}

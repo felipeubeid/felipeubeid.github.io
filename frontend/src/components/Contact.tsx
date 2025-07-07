@@ -48,7 +48,7 @@ const Contact = () => {
             Let's Work Together
           </h2>
           <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
-            Always looking for new opportunities
+            Always looking for new opportunities!
           </p>
         </div>
 
@@ -97,8 +97,8 @@ const Contact = () => {
                     <a
                       href={resume}
                       target="_blank"
-                      className="px-8 py-4 bg-foreground text-background font-medium rounded-full 
-                      hover:bg-foreground/90 transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+                      className="inline-block px-8 py-4 bg-foreground text-background font-medium rounded-full 
+                    transform hover:scale-105 hover:bg-foreground/90 transition-all duration-300 hover:shadow-lg"
                     >
                       Get My Resume
                     </a>
