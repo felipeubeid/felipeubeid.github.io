@@ -21,6 +21,9 @@
         --accent-foreground: 0 0% 98%;
 
         --border: 210 6% 16%;
+
+        --card: 210 6% 8%;
+        --card-foreground: 0 0% 98%;
         
     }
     .light{
@@ -37,16 +40,26 @@
         --accent-foreground: 0 0% 10%;
 
         --border: 0 0% 90%;
+
+        --card: 0 0% 100%;
+        --card-foreground: 0 0% 10%;
     }
 }
 
 @layer base{
+    * {
+        @apply border-border;
+    }
     body{
         @apply bg-background text-foreground font-rubik;
         scroll-behavior: smooth;
     }
     html {
         scroll-behavior: smooth;
+    }
+    h2, h3 {
+        overflow: visible;
+        padding-bottom: 0.15em;
     }
     
 }

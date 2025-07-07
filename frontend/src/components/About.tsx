@@ -41,11 +41,10 @@ const About = () => {
                 Florida State University, pursuing a degree in Computer Science. 
               </p>
               <p className="text-lg">
-                My time at FSU has helped me build a solid foundation in programming,
-                algorithms, and software development principles. I'm eager to put these 
-                skills to work in a professional environment, creating innovative solutions 
+                My time at FSU has helped me build a solid foundation in
+                algorithms and software development principles. I look forward to putting
+                these skills to work in a professional environment, creating innovative solutions 
                 and designing user-centric experiences.
-                
               </p>
               <p className="text-lg">
                 In my free time, you'll find me listening to music, or watching sports - 
