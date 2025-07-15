@@ -68,7 +68,7 @@ const Projects = () => {
       liveUrl: "https://felipeubeid.github.io/"
     },
     {
-      title: "Spotify Map",
+      title: "Map Spotify",
       description:
         "Created a full-stack Spotify visualization app displaying users' top artists on an interactive global map using the Spotify API with integrated artist location data.",
       tech: ["React", "Vite", "Tailwind CSS", "Flask", "Redis", "Spotify Web API", "MusicBrainz", "Nominatim", "Leaflet"],
