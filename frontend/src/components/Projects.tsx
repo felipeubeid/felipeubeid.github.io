@@ -4,6 +4,7 @@ import { LuGithub } from "react-icons/lu";
 import cop4870 from "../assets/images/cop4870.png";
 import restaurantmanager from "../assets/images/restaurantmanager.png";
 import personalwebsite from "../assets/images/personalwebsite.png";
+import spotifymap from "../assets/images/spotifymap5.png";
 
 // interface defines the structure of a project object
 interface Project {
@@ -65,6 +66,14 @@ const Projects = () => {
       live: true,
       gitHubUrl: "https://github.com/felipeubeid/personal-website.git",
       liveUrl: "https://felipeubeid.github.io/"
+    },
+    {
+      title: "Spotify Map",
+      description:
+        "Created a full-stack Spotify visualization app displaying users' top artists on an interactive global map using the Spotify API with integrated artist location data.",
+      tech: ["React", "Vite", "Tailwind CSS", "Flask", "Redis", "Spotify Web API", "MusicBrainz", "Nominatim", "Leaflet"],
+      image: spotifymap,
+      gitHubUrl: "https://github.com/felipeubeid/map-spotify",
     },
   ];
 
