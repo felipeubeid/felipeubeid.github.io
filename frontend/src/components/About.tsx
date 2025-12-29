@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import picture from '../assets/images/100_0532.jpg'
+import picture from '../assets/images/100_0533.jpg';
 
 const About = () => {
   // Ref to the section element

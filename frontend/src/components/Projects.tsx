@@ -5,6 +5,8 @@ import cop4870 from "../assets/images/cop4870.png";
 import restaurantmanager from "../assets/images/restaurantmanager.png";
 import personalwebsite from "../assets/images/personalwebsite.png";
 import spotifymap from "../assets/images/spotifymap5.png";
+import vacationplanner from "../assets/images/vacationplanner.png";
+import chessgame from "../assets/images/chessgame.png";
 
 // interface defines the structure of a project object
 interface Project {
@@ -60,7 +62,7 @@ const Projects = () => {
     {
       title: "Personal Website",
       description:
-        "The website you are seeing right now. Hope you are liking it!",
+        "The website you are seeing right now. I hope you liked it!",
       tech: ["React", "Tailwind CSS"],
       image: personalwebsite,
       live: true,
@@ -74,6 +76,22 @@ const Projects = () => {
       tech: ["React", "Vite", "Tailwind CSS", "Flask", "Redis", "Spotify Web API", "MusicBrainz", "Nominatim", "Leaflet"],
       image: spotifymap,
       gitHubUrl: "https://github.com/felipeubeid/map-spotify",
+    },
+    {
+      title: "Vacation Planner",
+      description:
+        "Collaborated with a team of students to build a full-stack vacation planning app where an AI agent suggests personalized travel plans based on user preferences.",
+      tech: ["Next.js", "Tailwind CSS", "Flask", "Google ADK", "CopilotKit", "Supabase"],
+      image: vacationplanner,
+      gitHubUrl: "https://github.com/JCReed26/Vacation-Planner",
+    },
+    {
+      title: "Chess Game",
+      description:
+        "Developed a fully functional chess game in Java using standard libraries, with standard rules and an interactive GUI for two-player gameplay.",
+      tech: ["Java"],
+      image: chessgame,
+      gitHubUrl: "https://github.com/felipeubeid/chess",
     },
   ];
 
