@@ -4,40 +4,40 @@
 
 @layer base{
     :root{
-        --background: 210 11% 4%;
+        --background: 222 47% 6%;
         --foreground: 0 0% 98%;
 
         --primary: 0 0% 98%;
-        --primary-foreground: 210 11% 4%;
+        --primary-foreground: 222 47% 6%;
 
-        --muted: 210 6% 12%;
-        --muted-foreground: 0 0% 80%;
+        --muted: 222 30% 14%;
+        --muted-foreground: 215 20% 75%;
 
-        --accent: 210 6% 16%;
+        --accent: 222 30% 18%;
         --accent-foreground: 0 0% 98%;
 
-        --border: 210 6% 16%;
+        --border: 222 25% 18%;
 
-        --card: 210 6% 8%;
+        --card: 222 35% 10%;
         --card-foreground: 0 0% 98%;
     }
     .light{
         --background: 0 0% 100%;
-        --foreground: 0 0% 10%;
+        --foreground: 222 47% 11%;
 
-        --primary: 0 0% 10%;
+        --primary: 222 47% 11%;
         --primary-foreground: 0 0% 100%;
 
         --muted: 0 0% 96%;
-        --muted-foreground: 0 0% 35%;
+        --muted-foreground: 222 20% 40%;
 
         --accent: 0 0% 96%;
-        --accent-foreground: 0 0% 10%;
+        --accent-foreground: 222 47% 11%;
 
         --border: 0 0% 90%;
 
         --card: 0 0% 100%;
-        --card-foreground: 0 0% 10%;
+        --card-foreground: 222 47% 11%;
     }
 }
 
@@ -86,7 +86,7 @@
         background-clip: text;
     }
     .light .text-gradient {
-        background: linear-gradient(135deg, #000000 0%, #404040 100%);
+        background: linear-gradient(135deg, #0f172a 0%, #475569 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;

@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react';
-import picture from '../assets/images/100_0533.jpg';
+import picture from '../assets/images/100_0468.jpg';
 
 const About = () => {
   // Ref to the section element
@@ -24,8 +24,29 @@ const About = () => {
     return () => observer.disconnect();
   }, []);
 
-  const skills = ['React', 'Flask', 'C++', 'Python', 'HTML5', 'CSS', ,'JavaScript', 'C#', 
-  '.NET', 'Git', 'Tailwind', 'Postman', 'RESTful APIs', 'TypeScript']
+  const skills = [
+    'Python',
+    'C++',
+    'Java',
+    'C#',
+    'HTML5', 
+    'CSS',
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Next.js',
+    'Flask',
+    'Django',
+    '.NET',
+    'ASP.NET',
+    '.NET MAUI',
+    'Tailwind CSS',
+    'SQL',
+    'SQLAlchemy',
+    'Git',
+    'GitHub',
+    'RESTful APIs'
+  ];
 
   return (
     <section id="about" ref={sectionRef} className="py-24 px-6 bg-muted/50">
@@ -37,8 +58,8 @@ const About = () => {
             </h2>
             <div className="space-y-6 text-muted-foreground leading-relaxed">
               <p className="text-lg">
-                Born and raised in São Paulo, Brazil, I'm currently a student at
-                Florida State University, pursuing a degree in Computer Science. 
+              Born and raised in São Paulo, Brazil, I am currently pursuing a Master of Science 
+              in Computer Science at Florida State University. 
               </p>
               <p className="text-lg">
                 My time at FSU has helped me build a solid foundation in
@@ -47,8 +68,8 @@ const About = () => {
                 and designing user-centric experiences.
               </p>
               <p className="text-lg">
-                In my free time, you'll find me listening to music, or watching sports - 
-                especially soccer, which I'm a die-hard fan of. Some of my skills include:
+                In my free time, you'll find me listening to music, watching movies, or following 
+                sports. Some of my skills include:
               </p>
             </div>
 

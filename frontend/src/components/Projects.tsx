@@ -7,6 +7,7 @@ import personalwebsite from "../assets/images/personalwebsite.png";
 import spotifymap from "../assets/images/spotifymap5.png";
 import vacationplanner from "../assets/images/vacationplanner.png";
 import chessgame from "../assets/images/chessgame.png";
+import comebackprediction from "../assets/images/comebackprediction.png"
 
 // interface defines the structure of a project object
 interface Project {
@@ -92,6 +93,14 @@ const Projects = () => {
       tech: ["Java"],
       image: chessgame,
       gitHubUrl: "https://github.com/felipeubeid/chess",
+    },
+    {
+      title: "Soccer Comeback Prediction",
+      description:
+        "Developed a machine learning model that predicts soccer comebacks using data from over 8,000 matches across Europe's top five leagues.",
+      tech: ["Python", "pandas", "numpy", "scikit-learn", "Matplotlib"],
+      image: comebackprediction,
+      gitHubUrl: "https://github.com/felipeubeid/cis4930-pattern-recognition",
     },
   ];
 

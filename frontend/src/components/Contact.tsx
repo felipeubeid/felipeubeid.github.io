@@ -61,14 +61,14 @@ const Contact = () => {
                 </h3>
                 <div className="space-y-4">
                   <a
-                    href="mailto:felipe.ubeid@hotmail.com"
+                    href="mailto:felipe.ubeid.cs@gmail.com"
                     className="flex items-center gap-4 text-muted-foreground 
                     hover:text-foreground transition-colors duration-300 group"
                   >
                     <div className="p-3 bg-accent rounded-full group-hover:bg-accent/80 transition-colors duration-300">
                       <Mail className="w-5 h-5" />
                     </div>
-                    <span>felipe.ubeid@hotmail.com</span>
+                    <span>felipe.ubeid.cs@gmail.com</span>
                   </a>
                   <a
                     href="mailto:ft23@fsu.edu"
