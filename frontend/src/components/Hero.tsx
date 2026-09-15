@@ -45,7 +45,7 @@ const Hero = () => {
           className="text-xl md:text-2xl text-muted-foreground mb-12 animate-fade-in-up font-light tracking-wide"
           style={{ animationDelay: "0.2s" }}
         >
-          Aspiring Software Engineer
+          Software Engineering
         </p>
 
         <div
